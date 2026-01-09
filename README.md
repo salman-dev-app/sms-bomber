@@ -14,4 +14,4 @@ This software is strictly for **Educational Purposes Only**. Do not use this too
 ## 🛠 Setup & Installation
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/ultra-bomber.git
+   git clone https://github.com/salman-dev-app/sms-bomber.git
