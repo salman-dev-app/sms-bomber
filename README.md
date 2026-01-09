@@ -26,7 +26,7 @@ A high-performance SMS testing tool designed for developers and security researc
 ### 2. Installation
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/sms-bomber-pro.git
+git clone https://github.com/salman-dev-app/sms-bomber.git
 cd sms-bomber-pro
 
 # Install dependencies
