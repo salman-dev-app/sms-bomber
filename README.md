@@ -1,39 +1,119 @@
-# 🚀 ULTRA SMS BOMBER v3.0 (PRO EDITION)
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6B6B,100:4ECDC4&height=200&text=sms-bomber&fontSize=42&fontColor=fff&animation=fadeIn&fontAlignY=40&desc=Python%20script%20for%20SMS%20stress-testing%20&%20QA&descAlignY=60&descSize=14"/>
+</div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python" alt="Python">
-  <img src="https://img.shields.io/badge/Flask-Framework-lightgrey?style=for-the-badge&logo=flask" alt="Flask">
-  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" alt="Status">
-  <img src="https://img.shields.io/badge/Developer-Md%20Salman%20Biswas-cyan?style=for-the-badge" alt="Developer">
+  <a href="https://github.com/salman-dev-app/sms-bomber">
+    <img src="https://readme-typing-svg.demolab.com?font=Tagesschrift&size=22&duration=2000&pause=800&color=F7F7F7&background=FF001400&center=true&vCenter=true&multiline=true&width=500&height=70&lines=sms-bomber;Python+script+for+SMS+stress-testing+&+QA" alt="Typing SVG" />
+  </a>
 </p>
 
-A high-performance, multithreaded SMS API stress-testing tool. Developed with a futuristic **Cyber-Galaxy UI**, this tool integrates over **60+ Premium APIs** to demonstrate the power of concurrent network requests in Python.
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/github/last-commit/salman-dev-app/sms-bomber?style=for-the-badge&color=00D9FF&label=LAST%20UPDATED&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/github/stars/salman-dev-app/sms-bomber?style=for-the-badge&color=FF6B6B&logo=github&logoColor=white" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/salman-dev-app/sms-bomber">
+    <img src="https://img.shields.io/badge/GitHub-View_Repository-FF6B6B?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+
+</p>
 
 ---
 
-## ⚡ One-Click Deployment
-Deploy your own instance of the Ultra Bomber instantly using the buttons below:
-
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/salman-dev-app/sms-bomber)
-
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/salman-dev-app/sms-bomber&branch=main&name=ultra-bomber)
-
----
-
-## 🛠 Features
-- **Concurrent Engine:** Uses `ThreadPoolExecutor` for high-speed API strikes.
-- **Expert UI:** Neon glassmorphism dashboard with real-time logging.
-- **Session Persistence:** Optimized with `requests.Session` to prevent server-side rate blocking.
-- **60+ APIs:** Massive collection of SMS gateways for maximum reliability.
-- **Mobile Responsive:** Works perfectly on Desktop, Tablets, and Smartphones.
+<div align="center">
+  <h3>
+    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Star" width="25" height="25" style="vertical-align: middle;" /> 
+    SMS Bomber — Python script for SMS stress-testing & QA
+  </h3>
+</div>
 
 ---
 
-## 🖥️ Local Installation
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Clipboard.png" alt="Clipboard" width="30" height="30" style="vertical-align: middle;" /> About This Project
 
-If you want to run this on your computer:
+<p>
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="18" height="18" style="vertical-align: middle;" /> <strong>Repository:</strong> <a href="https://github.com/salman-dev-app/sms-bomber">sms-bomber</a><br/>
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="18" height="18" style="vertical-align: middle;" /> <strong>Author:</strong> <a href="https://github.com/salman-dev-app">Md Salman Biswas</a><br/>
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="18" height="18" style="vertical-align: middle;" /> <strong>Primary Language:</strong> Python<br/>
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/salman-dev-app/sms-bomber.git
-   cd sms-bomber
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="18" height="18" style="vertical-align: middle;" /> <strong>License:</strong> MIT
+</p>
+
+---
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="30" height="30" style="vertical-align: middle;" /> Features
+
+<p><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="18" height="18" style="vertical-align: middle;" /> <strong>Clean Architecture</strong> — Built following SOLID principles and DRY methodology</p>
+<p><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="18" height="18" style="vertical-align: middle;" /> <strong>Scalable Design</strong> — Engineered for performance and extensibility</p>
+<p><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="18" height="18" style="vertical-align: middle;" /> <strong>Developer Friendly</strong> — Well-structured codebase with clear documentation</p>
+<p><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="18" height="18" style="vertical-align: middle;" /> <strong>Production Ready</strong> — Battle-tested and deployed in real environments</p>
+
+---
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Wrench.png" alt="Wrench" width="30" height="30" style="vertical-align: middle;" /> Tech Stack
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=git,github,docker,vscode&theme=dark" />
+</div>
+
+---
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Scroll.png" alt="Scroll" width="30" height="30" style="vertical-align: middle;" /> Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/salman-dev-app/sms-bomber.git
+
+# Navigate to the project
+cd sms-bomber
+
+# Install dependencies (if applicable)
+# Follow language-specific setup instructions below
+```
+
+---
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Globe%20Showing%20Americas.png" alt="Globe" width="30" height="30" style="vertical-align: middle;" /> Connect With The Author
+
+<p align="center">
+  <a href="mailto:mdsalmanhelp@gmail.com">
+    <img src="https://img.shields.io/badge/Hire_Me-Send_Email-FF6B6B?style=for-the-badge&logo=minutemailer&logoColor=white" />
+  </a>
+  <a href="https://wa.me/8801840933137">
+    <img src="https://img.shields.io/badge/WhatsApp-Direct_Chat-4ECDC4?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  </a>
+  <a href="https://github.com/salman-dev-app">
+    <img src="https://img.shields.io/badge/GitHub-Follow_Me-00D9FF?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
+
+---
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Scroll.png" alt="License" width="30" height="30" style="vertical-align: middle;" /> License
+
+<div align="center">
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge&logo=open-source-initiative&logoColor=white" />
+  </a>
+</div>
+
+<p align="center">
+  This project is licensed under the MIT License — feel free to use and contribute.
+</p>
+
+---
+
+<footer align="center">
+  <p>© 2024-2026 <a href="https://github.com/salman-dev-app">Md Salman Biswas</a> · All rights reserved</p>
+  <p>
+    <a href="https://github.com/salman-dev-app">
+      <img src="https://img.shields.io/badge/Profile_Status-Active-4ECDC4?style=flat" alt="Status" />
+    </a>
+  </p>
+  <p>Engineered with ❤️ by <a href="https://github.com/salman-dev-app">Md Salman Biswas</a></p>
+</footer>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6B6B,100:4ECDC4&height=120&section=footer"/>
