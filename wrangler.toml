@@ -1,0 +1,14 @@
+name = "bd-bomber-pro"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+[build]
+command = ""
+
+# Optional: configure routes
+# [[routes]]
+# pattern = "your-domain.com/*"
+# zone_name = "your-domain.com"
+
+# Workers Free tier: 100,000 requests/day, 10ms CPU time/request
+# Workers Paid tier: 10 million requests/month, 50ms CPU time/request
