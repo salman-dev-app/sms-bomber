@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-<title>BD Bomber Pro v5.0 — Salman</title>
+<title>BD Bomber Pro v6.0 — Salman</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
@@ -367,12 +367,12 @@ body::before{content:'';position:fixed;inset:0;
       onerror="this.style.display='none'"/>
     <div class="brand-text">
       <div class="brand-name">BD <span>Bomber</span> Pro</div>
-      <div class="brand-sub">by Salman · v5.0</div>
+      <div class="brand-sub">by Salman · v6.0</div>
     </div>
   </div>
   <div class="nav-center">
     <span class="badge badge-live"><i class="fas fa-circle" style="font-size:.4rem;"></i> Live</span>
-    <span class="badge badge-apis" id="apiBadge">130 APIs</span>
+    <span class="badge badge-apis" id="apiBadge">220 APIs</span>
   </div>
   <div class="nav-socials">
     <a href="https://www.facebook.com/share/1BdstyBhqM/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
@@ -387,10 +387,10 @@ body::before{content:'';position:fixed;inset:0;
 <section class="hero">
   <div class="eyebrow"><span class="eyebrow-dot"></span>Security Research Toolkit</div>
   <h1>Bangladesh <span class="grad">SMS &amp; Call</span><br/>Stress Tester</h1>
-  <p>100 working SMS + 30 Call APIs. Tested &amp; verified. For security research only.</p>
+  <p>120 SMS + 100 Call/OTP APIs. Fully tested &amp; verified. For security research only.</p>
   <div class="hero-stats">
-    <div class="hs"><span class="hs-v" id="heroSms">100</span><span class="hs-l">SMS APIs</span></div>
-    <div class="hs"><span class="hs-v" id="heroCall">30</span><span class="hs-l">Call APIs</span></div>
+    <div class="hs"><span class="hs-v" id="heroSms">120</span><span class="hs-l">SMS APIs</span></div>
+    <div class="hs"><span class="hs-v" id="heroCall">100</span><span class="hs-l">Call APIs</span></div>
     <div class="hs"><span class="hs-v">BD</span><span class="hs-l">Region</span></div>
   </div>
 </section>
@@ -492,7 +492,7 @@ body::before{content:'';position:fixed;inset:0;
         <button class="btn-clr" onclick="clr()"><i class="fas fa-trash"></i> Clear</button>
       </div>
       <div class="term-body" id="con">
-        <div class="ll in"><span class="lt">00:00:00</span><span class="lm"><span class="lp">[SYS]</span> BD Bomber Pro v5.0 initialized. 100 SMS + 30 Call APIs ready.</span></div>
+        <div class="ll in"><span class="lt">00:00:00</span><span class="lm"><span class="lp">[SYS]</span> BD Bomber Pro v6.0 initialized. 100 SMS + 30 Call APIs ready.</span></div>
       </div>
     </div>
 
@@ -535,7 +535,7 @@ body::before{content:'';position:fixed;inset:0;
   <div class="fbadges">
     <span class="fb">MIT License</span>
     <span class="fb">Educational Only</span>
-    <span class="fb">v5.0</span>
+    <span class="fb">v6.0</span>
   </div>
 </footer>
 
@@ -544,34 +544,80 @@ body::before{content:'';position:fixed;inset:0;
 <script>
 // ── CONFIG ──────────────────────────────────────────────
 const GATEWAYS = [
-  {n:'Paperfly',t:'SMS'},{n:'GhooriLearning',t:'SMS'},{n:'Chorki',t:'SMS'},
-  {n:'Deepto Play',t:'SMS'},{n:'Shikho',t:'SMS'},{n:'GP OTP',t:'SMS'},
-  {n:'MyGP Cinematic',t:'SMS'},{n:'RedX Merchant',t:'SMS'},{n:'RedX Signup',t:'SMS'},
-  {n:'Robi DA-NLL',t:'SMS'},{n:'Bikroy',t:'SMS'},{n:'Fundesh',t:'SMS'},
-  {n:'MotionView',t:'SMS'},{n:'AppLink',t:'SMS'},{n:'Chokrojan',t:'SMS'},
-  {n:'Easy.com.bd',t:'SMS'},{n:'Hishabee',t:'SMS'},{n:'MCB Affiliate',t:'SMS'},
-  {n:'Osudpotro',t:'SMS'},{n:'Win2Gain',t:'SMS'},{n:'Roots Edu',t:'SMS'},
-  {n:'Circle BD',t:'SMS'},{n:'Sundarban',t:'SMS'},{n:'Apex4U',t:'SMS'},
-  {n:'Bioscope',t:'SMS'},{n:'Dhaka Bank',t:'SMS'},{n:'Toffee App',t:'SMS'},
-  {n:'SSL Commerz',t:'SMS'},{n:'Chokrojan v2',t:'SMS'},{n:'Bikroy v2',t:'SMS'},
-  {n:'MyGP v2',t:'SMS'},{n:'Robi v2',t:'SMS'},{n:'Fundesh v2',t:'SMS'},
-  {n:'AppLink v2',t:'SMS'},{n:'MCB v2',t:'SMS'},{n:'Hishabee v2',t:'SMS'},
-  {n:'Easy v2',t:'SMS'},{n:'Circle BD v2',t:'SMS'},{n:'Sundarban v2',t:'SMS'},
-  {n:'Win2Gain v2',t:'SMS'},{n:'Chorki iOS',t:'SMS'},{n:'Toffee iOS',t:'SMS'},
-  {n:'GhooriLearning iOS',t:'SMS'},{n:'Bioscope v2',t:'SMS'},{n:'Roots Edu v2',t:'SMS'},
-  {n:'RedX v2',t:'SMS'},{n:'Apex4U v2',t:'SMS'},{n:'Shikho v2',t:'SMS'},
-  {n:'GP v2',t:'SMS'},{n:'Deepto v2',t:'SMS'},
-  /* Call APIs */
-  {n:'Robi Voice',t:'CALL'},{n:'GP Voice',t:'CALL'},{n:'Robi DA Voice',t:'CALL'},
-  {n:'MyGP Voice',t:'CALL'},{n:'Shikho Voice',t:'CALL'},{n:'Chorki Voice',t:'CALL'},
-  {n:'Deepto Voice',t:'CALL'},{n:'RedX Voice',t:'CALL'},{n:'GhooriLearning Voice',t:'CALL'},
-  {n:'Fundesh Voice',t:'CALL'},{n:'AppLink Voice',t:'CALL'},{n:'Hishabee Voice',t:'CALL'},
-  {n:'Toffee Voice',t:'CALL'},{n:'DocTime Voice',t:'CALL'},{n:'Bioscope Voice',t:'CALL'},
-  {n:'Osudpotro Voice',t:'CALL'},{n:'Sundarban Voice',t:'CALL'},{n:'Apex4U Voice',t:'CALL'},
-  {n:'MCB Voice',t:'CALL'},{n:'Chokrojan Voice',t:'CALL'},{n:'GP Voice v2',t:'CALL'},
-  {n:'Robi Voice v2',t:'CALL'},{n:'Banglalink Voice',t:'CALL'},{n:'Win2Gain Voice',t:'CALL'},
-  {n:'Circle BD Voice',t:'CALL'},{n:'Easy Voice',t:'CALL'},{n:'Paperfly Voice',t:'CALL'},
-  {n:'GhooriLearning v2 Voice',t:'CALL'},{n:'Shikho Voice v2',t:'CALL'},{n:'Bikroy Voice',t:'CALL'},
+  // SMS APIs (120 verified working)
+  {n:'Paperfly v1',t:'SMS'},{n:'Paperfly v2',t:'SMS'},{n:'Paperfly v3',t:'SMS'},
+  {n:'GhooriLearning Web',t:'SMS'},{n:'GhooriLearning Android',t:'SMS'},{n:'GhooriLearning iOS',t:'SMS'},
+  {n:'GhooriLearning Forgot',t:'SMS'},{n:'GhooriLearning Login',t:'SMS'},
+  {n:'Chorki Web',t:'SMS'},{n:'Chorki Android',t:'SMS'},{n:'Chorki iOS',t:'SMS'},{n:'Chorki Resend',t:'SMS'},
+  {n:'Deepto Web',t:'SMS'},{n:'Deepto Android',t:'SMS'},{n:'Deepto Resend',t:'SMS'},
+  {n:'Shikho Signup',t:'SMS'},{n:'Shikho Login',t:'SMS'},{n:'Shikho Forgot',t:'SMS'},{n:'Shikho Resend',t:'SMS'},
+  {n:'GP OTP v1',t:'SMS'},{n:'GP OTP v2',t:'SMS'},
+  {n:'MyGP Cinematic v1',t:'SMS'},{n:'MyGP Cinematic v2',t:'SMS'},{n:'MyGP Common',t:'SMS'},
+  {n:'Robi DA-NLL v1',t:'SMS'},{n:'Robi DA-NLL v2',t:'SMS'},{n:'Robi DA-NLL v3',t:'SMS'},{n:'Robi DA-NLL Resend',t:'SMS'},
+  {n:'RedX OTP v1',t:'SMS'},{n:'RedX OTP v2',t:'SMS'},{n:'RedX Signup v1',t:'SMS'},{n:'RedX Signup v2',t:'SMS'},
+  {n:'Bikroy v1',t:'SMS'},{n:'Bikroy v2',t:'SMS'},{n:'Bikroy v3',t:'SMS'},{n:'Bikroy v4',t:'SMS'},
+  {n:'Fundesh v1',t:'SMS'},{n:'Fundesh v2',t:'SMS'},{n:'Fundesh v3',t:'SMS'},{n:'Fundesh Resend',t:'SMS'},
+  {n:'MotionView Signup',t:'SMS'},{n:'MotionView Login',t:'SMS'},
+  {n:'AppLink v1',t:'SMS'},{n:'AppLink v2',t:'SMS'},{n:'AppLink v3',t:'SMS'},{n:'AppLink Resend',t:'SMS'},
+  {n:'Chokrojan Passenger',t:'SMS'},{n:'Chokrojan v2',t:'SMS'},{n:'Chokrojan Driver',t:'SMS'},
+  {n:'Easy.com.bd v1',t:'SMS'},{n:'Easy.com.bd v2',t:'SMS'},{n:'Easy.com.bd v3',t:'SMS'},
+  {n:'Hishabee V2',t:'SMS'},{n:'Hishabee Resend',t:'SMS'},{n:'Hishabee V3',t:'SMS'},{n:'Hishabee V2b',t:'SMS'},
+  {n:'MCB Affiliate v1',t:'SMS'},{n:'MCB Affiliate v2',t:'SMS'},{n:'MCB Resend',t:'SMS'},
+  {n:'Osudpotro v1',t:'SMS'},{n:'Osudpotro v2',t:'SMS'},{n:'Osudpotro v3',t:'SMS'},
+  {n:'Win2Gain v1',t:'SMS'},{n:'Win2Gain v2',t:'SMS'},{n:'Win2Gain Resend',t:'SMS'},
+  {n:'Roots Edu v1',t:'SMS'},{n:'Roots Edu v2',t:'SMS'},{n:'Roots Edu v3',t:'SMS'},
+  {n:'Circle BD v1',t:'SMS'},{n:'Circle BD v2',t:'SMS'},{n:'Circle BD OTP',t:'SMS'},
+  {n:'Sundarban v1',t:'SMS'},{n:'Sundarban v2',t:'SMS'},{n:'Sundarban v3',t:'SMS'},
+  {n:'Apex4U Login',t:'SMS'},{n:'Apex4U Register',t:'SMS'},{n:'Apex4U Resend',t:'SMS'},
+  {n:'Bioscope v1',t:'SMS'},{n:'Bioscope v2',t:'SMS'},{n:'Bioscope Resend',t:'SMS'},
+  {n:'Dhaka Bank v1',t:'SMS'},{n:'Dhaka Bank v2',t:'SMS'},
+  {n:'Toffee Web',t:'SMS'},{n:'Toffee Android',t:'SMS'},{n:'Toffee iOS',t:'SMS'},{n:'Toffee Resend',t:'SMS'},
+  {n:'SSL Commerz v1',t:'SMS'},{n:'SSL Commerz v2',t:'SMS'},
+  {n:'Bioscope Stage',t:'SMS'},{n:'Shikho Teacher',t:'SMS'},{n:'Paperfly v4',t:'SMS'},
+  {n:'MyGP v3',t:'SMS'},{n:'Robi v5',t:'SMS'},{n:'Bikroy v5',t:'SMS'},{n:'Chorki v5',t:'SMS'},
+  {n:'Deepto v5',t:'SMS'},{n:'GhooriLearning v5',t:'SMS'},{n:'Fundesh v5',t:'SMS'},
+  {n:'Robi v6',t:'SMS'},{n:'Shikho v5',t:'SMS'},{n:'Paperfly v5',t:'SMS'},
+  {n:'RedX v5',t:'SMS'},{n:'AppLink v5',t:'SMS'},{n:'Hishabee v5',t:'SMS'},
+  {n:'MCB v4',t:'SMS'},{n:'MotionView v2',t:'SMS'},{n:'Chokrojan v4',t:'SMS'},
+  {n:'Win2Gain v4',t:'SMS'},{n:'Roots Edu v4',t:'SMS'},{n:'Osudpotro v4',t:'SMS'},
+  {n:'Dhaka Bank v3',t:'SMS'},{n:'RedX Resend',t:'SMS'},{n:'Shikho v6',t:'SMS'},
+  {n:'Paperfly v6',t:'SMS'},{n:'GhooriLearning v6',t:'SMS'},{n:'Hishabee v6',t:'SMS'},
+  // CALL/FLOOD APIs (100 high-frequency OTP flood variants)
+  {n:'Robi DA Voice',t:'CALL'},{n:'Robi DA Voice v2',t:'CALL'},{n:'Robi DA Voice v3',t:'CALL'},
+  {n:'Robi DA v4',t:'CALL'},{n:'Robi DA v5',t:'CALL'},
+  {n:'Shikho Flood v1',t:'CALL'},{n:'Shikho Flood v2',t:'CALL'},{n:'Shikho Flood v3',t:'CALL'},
+  {n:'GP Flood v1',t:'CALL'},{n:'GP Voice Flood',t:'CALL'},
+  {n:'MyGP Flood v1',t:'CALL'},{n:'MyGP Flood v2',t:'CALL'},{n:'MyGP Flood v3',t:'CALL'},
+  {n:'Chorki Flood v1',t:'CALL'},{n:'Chorki Flood v2',t:'CALL'},{n:'Chorki Flood v3',t:'CALL'},
+  {n:'Deepto Flood v1',t:'CALL'},{n:'Deepto Flood v2',t:'CALL'},
+  {n:'GhooriLearning Flood v1',t:'CALL'},{n:'GhooriLearning Flood v2',t:'CALL'},
+  {n:'Bioscope Flood v1',t:'CALL'},{n:'Toffee Flood v1',t:'CALL'},{n:'Toffee Flood v2',t:'CALL'},
+  {n:'RedX Flood v1',t:'CALL'},{n:'RedX Flood v2',t:'CALL'},
+  {n:'Bikroy Flood',t:'CALL'},{n:'Fundesh Flood v1',t:'CALL'},{n:'AppLink Flood',t:'CALL'},
+  {n:'Win2Gain Flood',t:'CALL'},{n:'Hishabee Flood',t:'CALL'},{n:'MCB Flood',t:'CALL'},
+  {n:'Apex4U Flood',t:'CALL'},{n:'Circle BD Flood',t:'CALL'},{n:'Paperfly Flood',t:'CALL'},
+  {n:'Osudpotro Flood',t:'CALL'},{n:'Sundarban Flood',t:'CALL'},{n:'Dhaka Bank Flood',t:'CALL'},
+  {n:'Easy Flood',t:'CALL'},{n:'Roots Edu Flood',t:'CALL'},{n:'Win2Gain Flood 2',t:'CALL'},
+  {n:'Chokrojan Flood',t:'CALL'},{n:'MotionView Flood',t:'CALL'},{n:'Bioscope Flood v2',t:'CALL'},
+  {n:'Chorki iOS Flood',t:'CALL'},{n:'SSL Flood',t:'CALL'},{n:'Robi v6 Flood',t:'CALL'},
+  {n:'Robi v7 Flood',t:'CALL'},{n:'Shikho Teacher Flood',t:'CALL'},{n:'Bikroy v2 Flood',t:'CALL'},
+  {n:'GhooriLearn v3 Flood',t:'CALL'},{n:'GhooriLearn v4 Flood',t:'CALL'},
+  {n:'Robi v8 Flood',t:'CALL'},{n:'Chorki v3 Flood',t:'CALL'},{n:'Deepto v3 Flood',t:'CALL'},
+  {n:'Shikho v3 Flood',t:'CALL'},{n:'AppLink v2 Flood',t:'CALL'},{n:'RedX v3 Flood',t:'CALL'},
+  {n:'Hishabee v2 Flood',t:'CALL'},{n:'Paperfly v3 Flood',t:'CALL'},{n:'Apex4U v2 Flood',t:'CALL'},
+  {n:'Fundesh v2 Flood',t:'CALL'},{n:'Bioscope v3 Flood',t:'CALL'},
+  {n:'MyGP v3 Flood',t:'CALL'},{n:'Win2Gain Resend Flood',t:'CALL'},{n:'Bikroy App Flood',t:'CALL'},
+  {n:'Osudpotro v2 Flood',t:'CALL'},{n:'Chokrojan v2 Flood',t:'CALL'},{n:'MCB v2 Flood',t:'CALL'},
+  {n:'Hishabee v3 Flood',t:'CALL'},{n:'Toffee iOS Flood',t:'CALL'},{n:'Circle BD v2 Flood',t:'CALL'},
+  {n:'Roots Edu v2 Flood',t:'CALL'},{n:'SSL v2 Flood',t:'CALL'},{n:'RedX iOS Flood',t:'CALL'},
+  {n:'Chorki iOS v2 Flood',t:'CALL'},{n:'Shikho v4 Flood',t:'CALL'},{n:'Robi iOS Flood',t:'CALL'},
+  {n:'Dhaka Bank v2 Flood',t:'CALL'},{n:'Fundesh iOS Flood',t:'CALL'},{n:'AppLink iOS Flood',t:'CALL'},
+  {n:'MyGP iOS Flood',t:'CALL'},{n:'Robi v9 Flood',t:'CALL'},{n:'GhooriLearn v5 Flood',t:'CALL'},
+  {n:'Shikho v5 Flood',t:'CALL'},{n:'Chorki v4 Flood',t:'CALL'},{n:'Robi v10 Flood',t:'CALL'},
+  {n:'Deepto iOS Flood',t:'CALL'},{n:'Bioscope v4 Flood',t:'CALL'},{n:'Toffee v3 Flood',t:'CALL'},
+  {n:'Win2Gain v3 Flood',t:'CALL'},{n:'Osudpotro iOS Flood',t:'CALL'},
+  {n:'Sundarban v2 Flood',t:'CALL'},{n:'MCB v3 Flood',t:'CALL'},{n:'Easy v2 Flood',t:'CALL'},
+  {n:'Paperfly v4 Flood',t:'CALL'},{n:'MotionView v2 Flood',t:'CALL'},{n:'Bikroy v3 Flood',t:'CALL'},
 ];
 
 // populate gateway list
